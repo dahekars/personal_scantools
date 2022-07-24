@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for output in $(cat $1)
+do dig +short $output  >> out
+done
